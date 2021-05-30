@@ -40,3 +40,5 @@ class TestProductModel(TestCase):
         data = self.data1
         self.assertTrue(isinstance(data, Product))
         self.assertEqual(str(data), 'django beginners')
+
+        
